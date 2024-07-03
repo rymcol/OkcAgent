@@ -63,8 +63,14 @@ source "$PREFIX/tmp/okc-ssh-agent.env"
 
 Or you can just add the following line to start it:
 
+### bash/zsh
 ```bash
 eval $(okc-ssh-agent)
+```
+
+### fish
+```sh
+eval (okc-ssh-agent -c)
 ```
 
 ## Notes about the app
